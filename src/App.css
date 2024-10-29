@@ -1,0 +1,95 @@
+body {
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+    url('https://images.unsplash.com/photo-1589519160732-57fc498494f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=80');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: linear-gradient(145deg, rgba(58, 58, 58, 0.9), rgba(42, 42, 42, 0.9));
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3),
+              inset 0 0 10px rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  letter-spacing: 1px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-control {
+  width: 70%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #333;
+  outline: none;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 20px rgba(0, 123, 255, 0.4);
+}
+
+.btn {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  background: linear-gradient(145deg, #007bff, #0056b3);
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.3);
+}
+
+.btn:hover {
+  background: linear-gradient(145deg, #0056b3, #004494);
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(0, 123, 255, 0.5);
+}
+
+.result {
+  background: linear-gradient(145deg, #ffffff, #f0f0f0);
+  border-radius: 10px;
+  padding: 25px;
+  text-align: center;
+  margin-top: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  color: #000000;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.result p {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #007bff;
+  text-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
